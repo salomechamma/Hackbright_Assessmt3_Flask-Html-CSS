@@ -1,0 +1,32 @@
+
+{% extends 'base.html' %}
+
+ {% block title %} Application form {% endblock %}
+
+{% block content %}
+    
+    <div class='greet'>
+        Welcome to our website! We are really interested in your profile and would love to know more about you.<br> Please fill in the application form below. Would you have any question, do not hesitate to email us at: <a href="support@ubermelon.com" style="color:pink"> support@ubermelon.com</a>.
+    </div>
+    <div class="container">
+        <form action="/application" method="POST">
+            <h2>Application Form </h2>
+            <div class="InputData">
+                <span class="question"> <label> First name: </label><input id="box" type="text" name="fname" />   </span>
+                <span class="question"> <label> <span id="lname"> Last name:  </span> </label><input id="box" type="text" name="lname"> </span>
+                <span class="question"><label> Salary:</label><input id="box" type="number" name="salary" />  </span> 
+                <label> Job title: </label>
+                <input type="radio" name="title" value="Software Engineer">Software Engineer
+                <input type="radio" name="title" value="QA Engineer">QA Engineer
+                <input type="radio" name="title" value="Product Manager">Product Manager
+            </div>
+                <br><br>
+                <input id="box" type="submit"/>
+
+
+        </form>
+    </div>
+
+
+
+{% endblock %}

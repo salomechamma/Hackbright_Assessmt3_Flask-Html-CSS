@@ -1,0 +1,70 @@
+/* Your styles can go here. */
+
+h1{
+    text-align: center;
+}
+h2{
+    color: orange;
+    text-align: left;
+   
+}
+
+body{
+    background: url("/static/img/bckg.jpg");
+    color: white;
+    text-align: left;
+    font-size: 15px;
+}
+
+.greet{
+  font-size: 20px;
+  text-align:center;
+  border: solid;
+}
+
+form{
+  display: block;
+}
+.container{
+text-align: left;
+}
+
+.question{
+  display: block;
+}
+
+
+
+
+label{
+    font-size: 15px;
+    text-align:left;
+    margin-left: 0;
+   
+  }
+
+#box{
+      background-color: yellow;
+      margin-left: 50px;
+
+
+
+}
+
+#lname{
+font-weight: bolder;
+}
+
+#salary{
+    font-weight: bolder;
+ }
+footer{
+  text-align: left;
+  position: fixed;
+  bottom:0;
+  left:0;
+  width:100%;
+  height:60px;   
+  font-style: italic;
+}
+
